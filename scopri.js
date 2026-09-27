@@ -131,7 +131,8 @@ wireTabs('.prediction-controls button', button => {
 const conversations = {
   eva: ['E.V.A. / CONTESTO OPERATIVO', "Che cosa è stato fatto nell'ultima visita?", 'E.V.A.', 'Posso aiutarti a ripercorrere le registrazioni disponibili e portare il contesto alla prossima attività.', '↳ Storico dell’impianto'],
   teco: ['TECO / MANUALI E GUASTI', 'Dove trovo la procedura per questo prodotto?', 'TECO', 'Cerchiamo nel manuale disponibile e apriamo il passaggio pertinente prima di procedere.', '↳ Manuale collegato'],
-  idra: ['IDRA / TRATTAMENTO ACQUA', 'Cosa dovrei controllare in questo trattamento?', 'IDRA', 'Partiamo dalle analisi e dalle rilevazioni disponibili per capire quali aspetti richiedono attenzione.', '↳ Dati del trattamento']
+  idra: ['IDRA / TRATTAMENTO ACQUA', 'Cosa dovrei controllare in questo trattamento?', 'IDRA', 'Partiamo dalle analisi e dalle rilevazioni disponibili per capire quali aspetti richiedono attenzione.', '↳ Dati del trattamento'],
+  norma: ['NORMA / LEGGI E NORME', 'Dove trovo il riferimento per questa verifica?', 'NORMA', 'Cerchiamo nei testi caricati e controlliamo insieme il documento e la pagina. Se le fonti non bastano, te lo segnalo.', '↳ Testo normativo disponibile']
 };
 const conversation = document.querySelector('.conversation');
 wireTabs('.assistant-selector button', button => {
